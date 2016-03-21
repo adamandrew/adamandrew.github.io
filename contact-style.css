@@ -1,3 +1,38 @@
-* {
+body {
+	font-size: 1.05em; 
+}
+section {
+	padding: 30px;
+}
+#nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+#nav-bar li {
+	display: inline;
+}
+#nav-bar a {
+	border: 1px;
+	border-style: solid;
+	padding: 5px;
+	text-decoration: none;
+}
+#nav-bar a:hover {
 	background-color: #E8E8E8;
+}
+#nav-bar a:link {
+	color: black;
+}
+#nav-bar a:visited {
+	color: black;
+}
+@media screen and (min-width: 800px) {
+	body {
+		background-image: url(images/explosion.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: bottom right; 
+	}
 }
