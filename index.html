@@ -6,15 +6,19 @@
 </head>
 <body>
 	<nav>
-		<a href="index.html">Home</a>
-		<a href="contact.html">Contact</a>
+		<ul id="nav-bar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
 	</nav>
-	<h1>Andrew Lee</h1>
-	<p>This is a page about Me.</p>
-	<img src="images/Andrew.jpg" alt="Andrew's photo">
+	<section>
+		<h1 class="heading">Andrew Lee</h1>
+		<p>This is a page about <span id="me">Me</span>.</p>
+		<img src="images/Andrew.jpg" alt="Andrew's photo">
+	</section>
 	<fieldset>
 		<div>
-			<h2>My hobbies:</h2>
+			<h2 class="heading">My hobbies:</h2>
 			<ul>
 				<li>Playing games</li>
 				<li>Sleeping</li>
@@ -24,7 +28,7 @@
 	</fieldset>
 	<fieldset>
 		<p>Fill this form if you have nothing to do.</p>
-		<form name="random form" action="" method="post">
+		<form name="random form" action="submit-success.html" method="get">
 			<div>
 				<label>Name:</label>
 				<input type="text" name="name">
